@@ -1,15 +1,15 @@
 
 ## Machine Learning Token
 
-	The Machine Learning Token (MLT) is an ERC20 Token in the Ethereum network that is used as a reward for users who help with file classifications. The goal of this project is to make a decentralized application that allows users to sort files and earn MLT as a reward. The main idea is that some research groups need to classify a large amount of data to apply all classifications in machine learning algorithms in order to predict what type of data is through analyzes of some characteristics of that data.
-	In this example, news articles related to Bitcoin and Cryptocurrencies will be used and users will have to classify if these news are "Good", "Bad" or "Neutral". Later, all classifications of this news will be used in machine learning algorithms to predict whether any article is "Good", "Bad" or "Neutral" for the world of cryptocurrencies based on the groups of words that this article has.
-	The TokenClassificator smart contract aims to store MLT, allow users to classify articles that are on [Interplanetary File System (IPFS)](https://ipfs.io), allow the owner to add administrators to the contract, allow administrators to check the classifications that users have made and allow users to withdraw tokens when their classifications are verified by administrators. When an administrator include an IPFS hash of some file in the smart contract others administrators need to verify this file in order to users be able to classify them.
+  The Machine Learning Token (MLT) is an ERC20 Token in the Ethereum network that is used as a reward for users who help with file classifications. The goal of this project is to make a decentralized application that allows users to sort files and earn MLT as a reward. The main idea is that some research groups need to classify a large amount of data to apply all classifications in machine learning algorithms in order to predict what type of data is through analyzes of some characteristics of that data.
+  In this example, news articles related to Bitcoin and Cryptocurrencies will be used and users will have to classify if these news are "Good", "Bad" or "Neutral". Later, all classifications of this news will be used in machine learning algorithms to predict whether any article is "Good", "Bad" or "Neutral" for the world of cryptocurrencies based on the groups of words that this article has.
+  The TokenClassificator smart contract aims to store MLT, allow users to classify articles that are on [Interplanetary File System (IPFS)](https://ipfs.io), allow the owner to add administrators to the contract, allow administrators to check the classifications that users have made and allow users to withdraw tokens when their classifications are verified by administrators. When an administrator include an IPFS hash of some file in the smart contract others administrators need to verify this file in order to users be able to classify them.
 
 ### Cases of Use
 
-	Functionalities of the contracts can be illustrated in a UML Case of Use Diagram.
+Functionalities of the contracts can be illustrated in a UML Case of Use Diagram.
 
-	![TokenClassificator Case of Use](img/tcUseCase.jpeg "Figure 1: TokenClassificator Case of Use")
+![TokenClassificator Case of Use](img/tcUseCase.jpeg "Figure 1: TokenClassificator Case of Use")
 
 
 ### Getting Started
@@ -105,4 +105,4 @@ In this example your account[0] is owner, account[1] is admin and account[2] is 
 
 ### Informations
 
-	This project could be done thanks to the Consensys Ethereum Developer Bootcamp Online 2018 and it is a continuation of the project done as [Course Project](https://github.com/henrique1837/ConsensysDevProgram2018). The data could be scraped thanks to all knowloged learned in the Researcher Fellowship in NMEC - FGV. Next step is to finish the TokenClassificator smart contract and to publish it in the Ropsten Test Network and the dApp in the IPFS.
+This project could be done thanks to the Consensys Ethereum Developer Bootcamp Online 2018 and it is a continuation of the project done as [Course Project](https://github.com/henrique1837/ConsensysDevProgram2018). The data could be scraped thanks to all knowloged learned in the Researcher Fellowship in NMEC - FGV. Next step is to finish the TokenClassificator smart contract and to publish it in the Ropsten Test Network and the dApp in the IPFS.

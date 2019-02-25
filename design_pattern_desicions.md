@@ -7,5 +7,5 @@
 
 ### UML Classes OO
 
-![UML Diagram Classes OO](OOfinalProjectEthereum.jpeg "UML Classes Object Oriented")
+![UML Diagram Classes OO](img/OOfinalProjectEthereum.jpeg "UML Classes Object Oriented")
 
